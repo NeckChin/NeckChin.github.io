@@ -59,6 +59,7 @@ class Header extends Component {
             <h3 style={{ color: "white" }}>{myclass}.</h3>
             <hr />
             <ul className='social'>{networks}</ul>
+            <h3 style={{ color: "white" }}>This site is a work in progress</h3>
           </div>
         </div>
 
