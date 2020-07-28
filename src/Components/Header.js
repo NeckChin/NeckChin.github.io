@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Resume from "../assets/resume.pdf";
 
 class Header extends Component {
   render() {
@@ -40,12 +39,16 @@ class Header extends Component {
               </a>
             </li>
             <li>
-              <a className='smoothscroll' href='#projects'>
+              <a className='smoothscroll' href='#projectDetails'>
                 Projects
               </a>
             </li>
             <li>
-              <a href={Resume} target='_blank' rel='noopener noreferrer'>
+              <a
+                href='https://docs.google.com/document/d/1l6motcrssMf6Fbnsp1ZRNEeOIsg8VyypeepfkLVJoII/export?format=pdf'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 Resume
               </a>
             </li>
@@ -55,11 +58,10 @@ class Header extends Component {
         <div className='row banner'>
           <div className='banner-text'>
             <h1 className='responsive-headline'>Hi, I'm {name}.</h1>
-            <h3>{description}.</h3>
+            <h3 style={{ color: "white" }}>{description}.</h3>
             <h3 style={{ color: "white" }}>{myclass}.</h3>
             <hr />
             <ul className='social'>{networks}</ul>
-            <h3 style={{ color: "white" }}>This site is a work in progress</h3>
           </div>
         </div>
 

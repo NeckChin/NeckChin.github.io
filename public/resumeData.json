@@ -41,35 +41,64 @@
       {
         "id": 1,
         "title": "casa",
-        "header": "A Cross Platform App for People Living Together",
+        "header": "Cross-Platform iOS/Android application providing useful tools for communities of people living together",
         "repository": "https://github.com/nchendev/casa",
         "link": "",
         "moreinfo": "",
         "date": "Summer 2020",
-        "description": "A modular app for roommates, created for blah blah",
-        "technologies": ["flutter", "firebase"]
+        "description": "Featuring home, personal, and social modules ranging from shared expenditures tracking to division of chores, Casa is an app that brings people living together, together. Through Casa, I gained a much deeper understanding of the importance of software architecture, eventually settling on using Business Logic Components (BLoC) pattern and incorporating core principles of Domain Driven Design. It is currently a work in progress. ",
+        "technologies": ["Flutter+BLoC", "Firebase", "Dart"]
       },
       {
         "id": 2,
         "title": "ganttlet",
-        "header": "An Online Gantt Chart Creation Webapp",
+        "header": "Real-time collaborative project planning software centered around Gantt charts",
         "repository": "https://github.com/HYO-Altair/ganttlet",
         "link": "",
         "moreinfo": "",
         "date": "Summer 2020",
-        "description": "Worked in team of 4, blah",
-        "technologies": ["react", "firebase", "express", "cypress"]
+        "description": "Ganttlet was made possible by Hack Your Own, a community initiative for Summer 2020 where students gathered, formed teams, and engineered software with the help of a mentor. Through Ganttlet, my team and I gained experience in project planning, discussion of and implementation of ideas, division of tasks, end-to-end testing, code review, peer programming, teamwork, and conflict resolution. ",
+        "technologies": [
+          "React+Redux+TypeScript",
+          "Firebase",
+          "Github Actions",
+          "Cypress"
+        ]
       },
       {
         "id": 3,
-        "title": "Szechuan Bistro",
-        "header": "HTML/CSS Website and Online Ordering System",
+        "title": "SB Ordering",
+        "header": "Web-based online ordering system for restaurant with an in-house authentication backend",
         "repository": "https://github.com/nchendev/sbordering",
         "link": "ba",
         "moreinfo": "",
         "date": "Summer 2020",
-        "description": "A website for Szechuan Bistro",
-        "technologies": ["mongodb", "express", "react", "twilio"]
+        "description": "An extension of the basic html/css website szechuanbistro.com, SBordering is a custom platform made specifically for Szechuan Bistro. As it was my first project with React, the project has been refactored many times as I discovered better/more standard ways to approach the project. One of the biggest challenges with this project was setting up the backend from scratch, implementing a custom authentication API with encrypted passwords, tokenized session information, and constantly keeping in mind possible security vulnerabilities.",
+        "technologies": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Node.js",
+          "Twilio",
+          "Google Location API",
+          "Heroku"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "myvir.us",
+        "header": "Platform for downloading a video game that self-injects a hidden bitcoin mining virus when installed",
+        "repository": "https://github.com/nchendev/sbordering",
+        "link": "",
+        "moreinfo": "",
+        "date": "Fall 2019",
+        "description": "AKA My Virtual Item Requisition Upgrade Simulator, myvir.us was an experimental platform in computer ethics. Myvir.us was developed as the final project for my team's Intro to Software Engineering class (CSCI201). As a project, it went above and beyond the requirements, as each of us strived to go beyond our current abilities, eventually culminating in the final product. Through this project, we got to gain experience with creating software according to the Waterfall Methodology, colloborative code with teammates, and picking up new technologies on the fly.",
+        "technologies": [
+          "GCP(Cloud MySQL, Cloud Compute Engine)",
+          "Apache Tomcat+Java",
+          "C++",
+          "Python"
+        ]
       }
     ]
   }

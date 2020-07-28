@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Resume from "../assets/resume.pdf";
 
 class About extends Component {
   render() {
@@ -43,7 +42,7 @@ class About extends Component {
               <div className='columns download'>
                 <p>
                   <a
-                    href={Resume}
+                    href='https://docs.google.com/document/d/1l6motcrssMf6Fbnsp1ZRNEeOIsg8VyypeepfkLVJoII/export?format=pdf'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='button'
